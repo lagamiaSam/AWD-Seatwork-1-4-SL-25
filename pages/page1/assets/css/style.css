@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url(../../assets/img/mario.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: #333;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(24,82,169);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: rgb(152, 153, 153);
+    border-radius: 5px;
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px; /* Added padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc;
+}
+
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.sort-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sort-buttons button {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;   
+    transition: background 0.3s;
+}
+
+.sort-buttons button:hover {
+    background-color: #218838;
+}
+
+
+#playerTable {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#playerTable th, #playerTable td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#playerTable th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#playerTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#playerTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+footer {
+    background-color: rgb(24,82,169);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: auto;
+    width: 100%;
+}
