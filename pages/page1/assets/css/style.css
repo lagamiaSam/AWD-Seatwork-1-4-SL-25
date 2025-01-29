@@ -39,10 +39,10 @@ nav a:hover {
 
 
 h1, h2 {
-    color: #333;
+    color: black;
     text-align: center;
-    padding: 20px;
-    font-size: 32px;
+    padding: 28px;
+    font-size: 40px;
 }
 
 
@@ -52,7 +52,7 @@ form {
     margin: 20px auto;
     background-color: white;
     border-radius: 8px;
-    padding: 20px; /* Added padding */
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid #ccc;
 }
